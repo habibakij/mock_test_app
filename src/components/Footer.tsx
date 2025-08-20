@@ -74,7 +74,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-orange-400 mt-1 flex-shrink-0" />
                 <p className="text-gray-400">
-                  3rd floor, Sharif Plaza, 39 Kemal Ataturk Avenue, Banani, Dhaka-1213.
+                  6th floor, H-24, R-13, Nikunja-2, khilkhet, Dhaka-1205.
                 </p>
               </div>
               <div className="flex items-center space-x-3">
