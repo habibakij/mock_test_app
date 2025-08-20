@@ -88,15 +88,18 @@ const TestCard: React.FC<TestCardProps> = ({
       </div>
 
       {/* Subjects */}
-      <div className="flex flex-wrap gap-2">
-        {subjects.map((subject, index) => (
-          <span
-            key={index}
-            className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full"
-          >
-            {subject}
-          </span>
-        ))}
+    <div className="flex items-center justify-between flex-wrap gap-2">
+  {/* Left side: subjects */}
+  <div className="flex flex-wrap gap-2">
+    {subjects.map((subject, index) => (
+      <span
+        key={index}
+        className="px-3 py-1 bg-gray-100 text-gray-700 text-sm rounded-full"
+      >
+        {subject}
+      </span>
+    ))}
+  </div>
         {/* Extra Button */}
   <button className="px-3 py-1 bg-orange-500 text-white text-sm rounded-full hover:bg-orange-600 transition">
     Testing
