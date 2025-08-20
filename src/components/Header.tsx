@@ -28,6 +28,8 @@ const Header = () => {
           
       </div>
           
+      <div className="flex items-center space-x-4">
+      
          {/* Auth Buttons */}
           <div className="flex items-center space-x-4">
             <button className="text-white hover:text-orange-400 transition-colors">
@@ -46,6 +48,9 @@ const Header = () => {
               </svg>
             </button>
           </div>
+      </div>
+          
+          
         </div>
       </nav>
     </header>
