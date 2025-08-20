@@ -30,7 +30,7 @@ const Header = () => {
           </div>
 
           {/* Auth Buttons */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="flex items-center space-x-4">
             <button className="text-white hover:text-orange-400 transition-colors">
               Sign Up
             </button>
