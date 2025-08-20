@@ -3,8 +3,8 @@ import { Shield } from 'lucide-react';
 
 const Header = () => {
   return (
-<header className="bg-gray-100 text-gray-900">
-      <nav className="container mx-auto px-6 py-4">
+<header className="bg-gray-900 text-white">
+  <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
@@ -16,28 +16,16 @@ const Header = () => {
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#" className="text-white hover:text-orange-400 transition-colors">
-              Last year
+              Mock Tests
             </a>
             <a href="#" className="text-white hover:text-orange-400 transition-colors">
-              Exam
+              Teachers
             </a>
             <a href="#" className="text-white hover:text-orange-400 transition-colors">
-              Online course
+              FAQs
             </a>
             <a href="#" className="text-white hover:text-orange-400 transition-colors">
-              Free mock test
-            </a>
-            <a href="#" className="text-white hover:text-orange-400 transition-colors">
-              General Awareness
-            </a>
-            <a href="#" className="text-white hover:text-orange-400 transition-colors">
-              Your practice
-            </a>
-            <a href="#" className="text-white hover:text-orange-400 transition-colors">
-              Testimonials
-            </a>
-            <a href="#" className="text-white hover:text-orange-400 transition-colors">
-              Jobs
+              Contact Us
             </a>
           </div>
 
