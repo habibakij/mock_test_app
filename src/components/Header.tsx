@@ -13,7 +13,8 @@ const Header = () => {
             </div>
           </div>
 
-          {/* Navigation Links */} <div className="hidden md:flex items-center space-x-8"> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Last year </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Exam </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Online course </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Free mock test </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> General Awareness </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Your practice </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Testimonials </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Jobs </a> </div>
+          {/* Navigation Links */} 
+          <div className="flex items-center space-x-8"> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Last year </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Exam </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Online course </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Free mock test </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> General Awareness </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Your practice </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Testimonials </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Jobs </a> </div>
           
           {/* Auth Buttons */}
           <div className="flex items-center space-x-4">
