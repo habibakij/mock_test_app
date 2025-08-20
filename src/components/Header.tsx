@@ -28,7 +28,7 @@ const Header = () => {
           
       </div>
           
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-8">
       
          {/* Auth Buttons */}
           <div className="flex items-center space-x-4">
