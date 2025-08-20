@@ -14,7 +14,15 @@ const Header = () => {
           </div>
 
           {/* Navigation Links */} 
-          <div className="flex items-center space-x-8"> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Last year </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Exam </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Online course </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Free mock test </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> General Awareness </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Your practice </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Testimonials </a> <a href="#" className="text-white hover:text-orange-400 transition-colors"> Jobs </a> </div>
+          <div className="flex items-center space-x-8">
+            <a href="#" className="text-white hover:text-orange-400 transition-colors"> Last year </a> 
+            <a href="#" className="text-white hover:text-orange-400 transition-colors"> Exam </a> 
+            <a href="#" className="text-white hover:text-orange-400 transition-colors"> Online course </a>
+            <a href="#" className="text-white hover:text-orange-400 transition-colors"> Free mock test </a> 
+            <a href="#" className="text-white hover:text-orange-400 transition-colors"> General Awareness </a>
+            <a href="#" className="text-white hover:text-orange-400 transition-colors"> Your practice </a> 
+            <a href="#" className="text-white hover:text-orange-400 transition-colors"> Testimonials </a> 
+            <a href="#" className="text-white hover:text-orange-400 transition-colors"> Jobs </a> </div>
           
           {/* Auth Buttons */}
           <div className="flex items-center space-x-4">
@@ -27,7 +35,7 @@ const Header = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="md:visible">
             <button className="text-white">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
