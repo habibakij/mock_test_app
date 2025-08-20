@@ -14,7 +14,7 @@ const Header = () => {
           </div>
 
           {/* Navigation Links */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="flex items-center space-x-8">
             <a href="#" className="text-white hover:text-orange-400 transition-colors">
               Mock Tests
             </a>
