@@ -3,7 +3,7 @@ import { Shield } from 'lucide-react';
 
 const Header = () => {
   return (
-    <header className="bg-gray-900 text-white">
+<header className="bg-gray-100 text-gray-900">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
